@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633F3CBE2A278FA90077C056 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 633F3CBC2A278FA90077C056 /* Data.xcdatamodeld */; };
+		633F3CC42A27A2950077C056 /* Subscription+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F3CC02A27A2950077C056 /* Subscription+CoreDataClass.swift */; };
+		633F3CC52A27A2950077C056 /* Subscription+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F3CC12A27A2950077C056 /* Subscription+CoreDataProperties.swift */; };
+		633F3CC62A27A2950077C056 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F3CC22A27A2950077C056 /* Article+CoreDataProperties.swift */; };
+		633F3CC72A27A2950077C056 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F3CC32A27A2950077C056 /* Article+CoreDataClass.swift */; };
+		638304182A1916E700EF338E /* kiwi_RApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638304172A1916E700EF338E /* kiwi_RApp.swift */; };
+		6383041A2A1916E700EF338E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638304192A1916E700EF338E /* ContentView.swift */; };
+		6383041C2A1916E900EF338E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6383041B2A1916E900EF338E /* Assets.xcassets */; };
+		6383041F2A1916E900EF338E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6383041E2A1916E900EF338E /* Preview Assets.xcassets */; };
+		638304212A1916E900EF338E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638304202A1916E900EF338E /* Persistence.swift */; };
+		638304242A1916E900EF338E /* kiwi_R.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 638304222A1916E900EF338E /* kiwi_R.xcdatamodeld */; };
+		6383042B2A19E80A00EF338E /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383042A2A19E80A00EF338E /* Subscription.swift */; };
+		6383042D2A19E8C800EF338E /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383042C2A19E8C800EF338E /* SubscriptionsView.swift */; };
+		6383042F2A19F38100EF338E /* AddSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383042E2A19F38100EF338E /* AddSubscriptionView.swift */; };
+		638304312A1A347100EF338E /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638304302A1A347100EF338E /* ArticlesView.swift */; };
+		638304332A1A34D300EF338E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638304322A1A34D300EF338E /* Article.swift */; };
+		6AEFDE3A30F237594D5409E9 /* Pods_kiwi_R.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557EBFF6C9A7FA819138F008 /* Pods_kiwi_R.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07839C7ED19BF001BEEBD28F /* Pods-kiwi R.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwi R.release.xcconfig"; path = "Target Support Files/Pods-kiwi R/Pods-kiwi R.release.xcconfig"; sourceTree = "<group>"; };
+		3EE3F70D18745A52F46429DE /* Pods-kiwi R.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwi R.debug.xcconfig"; path = "Target Support Files/Pods-kiwi R/Pods-kiwi R.debug.xcconfig"; sourceTree = "<group>"; };
+		557EBFF6C9A7FA819138F008 /* Pods_kiwi_R.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kiwi_R.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633F3CBD2A278FA90077C056 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		633F3CC02A27A2950077C056 /* Subscription+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Subscription+CoreDataClass.swift"; path = "kiwi R/Subscription+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		633F3CC12A27A2950077C056 /* Subscription+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Subscription+CoreDataProperties.swift"; path = "kiwi R/Subscription+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		633F3CC22A27A2950077C056 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataProperties.swift"; path = "kiwi R/Article+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		633F3CC32A27A2950077C056 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "kiwi R/Article+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		638304142A1916E700EF338E /* kiwi R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kiwi R.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638304172A1916E700EF338E /* kiwi_RApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiwi_RApp.swift; sourceTree = "<group>"; };
+		638304192A1916E700EF338E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6383041B2A1916E900EF338E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6383041E2A1916E900EF338E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		638304202A1916E900EF338E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		638304232A1916E900EF338E /* kiwi_R.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kiwi_R.xcdatamodel; sourceTree = "<group>"; };
+		6383042A2A19E80A00EF338E /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		6383042C2A19E8C800EF338E /* SubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		6383042E2A19F38100EF338E /* AddSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubscriptionView.swift; sourceTree = "<group>"; };
+		638304302A1A347100EF338E /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		638304322A1A34D300EF338E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		638304112A1916E700EF338E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEFDE3A30F237594D5409E9 /* Pods_kiwi_R.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1374FD96D4C8D71F90AE018B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE3F70D18745A52F46429DE /* Pods-kiwi R.debug.xcconfig */,
+				07839C7ED19BF001BEEBD28F /* Pods-kiwi R.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		49944DD975CCE5036B4F430C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				557EBFF6C9A7FA819138F008 /* Pods_kiwi_R.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		633F3CBF2A27A27E0077C056 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				633F3CC32A27A2950077C056 /* Article+CoreDataClass.swift */,
+				633F3CC22A27A2950077C056 /* Article+CoreDataProperties.swift */,
+				633F3CC02A27A2950077C056 /* Subscription+CoreDataClass.swift */,
+				633F3CC12A27A2950077C056 /* Subscription+CoreDataProperties.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		6383040B2A1916E700EF338E = {
+			isa = PBXGroup;
+			children = (
+				638304162A1916E700EF338E /* kiwi R */,
+				638304152A1916E700EF338E /* Products */,
+				1374FD96D4C8D71F90AE018B /* Pods */,
+				49944DD975CCE5036B4F430C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		638304152A1916E700EF338E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638304142A1916E700EF338E /* kiwi R.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		638304162A1916E700EF338E /* kiwi R */ = {
+			isa = PBXGroup;
+			children = (
+				633F3CBF2A27A27E0077C056 /* data */,
+				638304322A1A34D300EF338E /* Article.swift */,
+				6383042C2A19E8C800EF338E /* SubscriptionsView.swift */,
+				6383042E2A19F38100EF338E /* AddSubscriptionView.swift */,
+				6383042A2A19E80A00EF338E /* Subscription.swift */,
+				638304302A1A347100EF338E /* ArticlesView.swift */,
+				638304172A1916E700EF338E /* kiwi_RApp.swift */,
+				638304192A1916E700EF338E /* ContentView.swift */,
+				6383041B2A1916E900EF338E /* Assets.xcassets */,
+				638304202A1916E900EF338E /* Persistence.swift */,
+				638304222A1916E900EF338E /* kiwi_R.xcdatamodeld */,
+				633F3CBC2A278FA90077C056 /* Data.xcdatamodeld */,
+				6383041D2A1916E900EF338E /* Preview Content */,
+			);
+			path = "kiwi R";
+			sourceTree = "<group>";
+		};
+		6383041D2A1916E900EF338E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6383041E2A1916E900EF338E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		638304132A1916E700EF338E /* kiwi R */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638304272A1916E900EF338E /* Build configuration list for PBXNativeTarget "kiwi R" */;
+			buildPhases = (
+				BC3962DCE12646997C04ADED /* [CP] Check Pods Manifest.lock */,
+				638304102A1916E700EF338E /* Sources */,
+				638304112A1916E700EF338E /* Frameworks */,
+				638304122A1916E700EF338E /* Resources */,
+				893CD767EC8E86429B186C02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kiwi R";
+			productName = "kiwi R";
+			productReference = 638304142A1916E700EF338E /* kiwi R.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6383040C2A1916E700EF338E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					638304132A1916E700EF338E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6383040F2A1916E700EF338E /* Build configuration list for PBXProject "kiwi R" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6383040B2A1916E700EF338E;
+			productRefGroup = 638304152A1916E700EF338E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638304132A1916E700EF338E /* kiwi R */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		638304122A1916E700EF338E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6383041F2A1916E900EF338E /* Preview Assets.xcassets in Resources */,
+				6383041C2A1916E900EF338E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		893CD767EC8E86429B186C02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kiwi R/Pods-kiwi R-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kiwi R/Pods-kiwi R-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kiwi R/Pods-kiwi R-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC3962DCE12646997C04ADED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kiwi R-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638304102A1916E700EF338E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638304242A1916E900EF338E /* kiwi_R.xcdatamodeld in Sources */,
+				638304212A1916E900EF338E /* Persistence.swift in Sources */,
+				633F3CC72A27A2950077C056 /* Article+CoreDataClass.swift in Sources */,
+				638304332A1A34D300EF338E /* Article.swift in Sources */,
+				6383042F2A19F38100EF338E /* AddSubscriptionView.swift in Sources */,
+				633F3CC62A27A2950077C056 /* Article+CoreDataProperties.swift in Sources */,
+				6383041A2A1916E700EF338E /* ContentView.swift in Sources */,
+				6383042D2A19E8C800EF338E /* SubscriptionsView.swift in Sources */,
+				633F3CC42A27A2950077C056 /* Subscription+CoreDataClass.swift in Sources */,
+				638304182A1916E700EF338E /* kiwi_RApp.swift in Sources */,
+				633F3CC52A27A2950077C056 /* Subscription+CoreDataProperties.swift in Sources */,
+				633F3CBE2A278FA90077C056 /* Data.xcdatamodeld in Sources */,
+				6383042B2A19E80A00EF338E /* Subscription.swift in Sources */,
+				638304312A1A347100EF338E /* ArticlesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		638304252A1916E900EF338E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		638304262A1916E900EF338E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		638304282A1916E900EF338E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE3F70D18745A52F46429DE /* Pods-kiwi R.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kiwi R/Preview Content\"";
+				DEVELOPMENT_TEAM = 25G2LLHZXT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarvis.kiwi-R";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		638304292A1916E900EF338E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07839C7ED19BF001BEEBD28F /* Pods-kiwi R.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kiwi R/Preview Content\"";
+				DEVELOPMENT_TEAM = 25G2LLHZXT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarvis.kiwi-R";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6383040F2A1916E700EF338E /* Build configuration list for PBXProject "kiwi R" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638304252A1916E900EF338E /* Debug */,
+				638304262A1916E900EF338E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638304272A1916E900EF338E /* Build configuration list for PBXNativeTarget "kiwi R" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638304282A1916E900EF338E /* Debug */,
+				638304292A1916E900EF338E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		633F3CBC2A278FA90077C056 /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				633F3CBD2A278FA90077C056 /* Data.xcdatamodel */,
+			);
+			currentVersion = 633F3CBD2A278FA90077C056 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		638304222A1916E900EF338E /* kiwi_R.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				638304232A1916E900EF338E /* kiwi_R.xcdatamodel */,
+			);
+			currentVersion = 638304232A1916E900EF338E /* kiwi_R.xcdatamodel */;
+			path = kiwi_R.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6383040C2A1916E700EF338E /* Project object */;
+}
